@@ -1,0 +1,105 @@
+body{
+background:url("images/sitting-mountain-top.jpg")no-repeat center center fixed;
+background-size:100% 100%;
+}
+
+.wrapper{
+display:flex;
+height:100px;
+flex-wrap:wrap;
+justify-content:space-between;
+
+}
+.box{
+width:300px;
+height:100px;
+color:grey;
+margin:0 0 0 50px;
+}
+.box1{
+background:black;
+}
+.box2{
+
+} 
+.right{
+margin:0 0 0 100px;
+}
+
+.box3{
+
+}
+.box4{
+width:400px;
+border-radius:10px;
+}
+
+nav ul li{
+padding:8px;
+}
+/* flexbox for the contents and articles*/
+.wrapper1{
+margin:150px 0 0 0;
+display:flex;
+height:100px;
+flex-wrap:wrap;
+flex-direction:row;
+justify-content:flex-start;
+}
+.box5{
+color:red;
+width:400px;
+height:220px;
+background-repeat:no-repeat;
+background-size:100% 100%;
+
+}
+.text{
+position:absolute;
+top:200px;
+left:0;
+width:100%;
+margin:0 auto;
+width:300px;
+height:50px;
+z-index:100;
+}
+.box5 > img:hover{
+position:relative;
+transform:scale(1.2);
+-ms-transform:scale(1.2);
+-moz-transform:scale(1.2);
+-o-transform:scale(1.2);
+transition:linear 1s;
+}
+.box6{
+width:400px;
+height:220px;
+}
+.box7{
+flex:1;
+border-radius:10px;
+height:300px;
+margin:10px 0 0 0;
+
+}
+.move{
+margin:0 0 0 169px;
+}
+.hello{
+position:absolute;
+top:440px;
+left:60px;
+color:red;
+}
+/*wrapper 2 flexibility */
+.wrapper2{
+display:flex;
+flex-direction:row;
+}
+.box8{
+margin:0px;
+border:1px solid black;
+}
+
+

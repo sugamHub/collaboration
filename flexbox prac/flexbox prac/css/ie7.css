@@ -1,0 +1,44 @@
+.row-fluid .span5 {
+    width: 40%;
+}
+
+.well {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav-list > li > a,
+.nav-list .nav-header {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+nav.primary .nav > li > a:hover {
+	 background-color: #e5a657;
+	 *background-color: #e5a657;
+	 background-image: -ms-linear-gradient(top, #e5a657, #ca5e18);
+	 background-image: linear-gradient(top, #e5a657, #ca5e18);
+	 background-repeat: repeat-x;
+	 border-color: #ca5e18;
+	 border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	 filter: progid:dximagetransform.microsoft.gradient(startColorstr='#e5a657', endColorstr='#ca5e18', GradientType=0);
+}
+
+.assistText {
+    display: block;
+    text-indent: -999em; 
+}
+
+button.close {
+	margin-top: 5px;
+	padding-top: 0;
+}
+
+ol,
+ul {
+  margin: 0 0 24px 24px;
+}
+
+
+
+

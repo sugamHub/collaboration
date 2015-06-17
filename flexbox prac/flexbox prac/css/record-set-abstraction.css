@@ -1,0 +1,65 @@
+/*------------------------------------*\
+    RECORD SET ABSTRACTION
+\*------------------------------------*/
+.record {
+    margin: 0 0 24px 0;
+    padding: 5px;
+}
+
+.record,
+.record-body {
+    overflow: hidden;
+    _overflow: visible;
+    zoom: 1;
+}
+
+.record .img {
+    float: left;
+    margin-right: 10px;
+}
+
+.record .img img {
+    display: block;
+}
+
+
+
+
+
+/*------------------------------------*\
+    EXTENSIONS
+\*------------------------------------*/
+.record .imgExt {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.img-largest {
+    width: 75px;
+}
+
+.img-medium {
+    width: 50px;
+}
+
+.img-smallest {
+    width: 25px;
+}
+
+.record-border {
+    border: 1px solid #ddd;
+}
+
+.record-padding {
+    padding: 10px;   
+}
+
+.record-heading {
+    margin: 0;   
+}
+
+.news-article-img {
+    width: 200px;
+    height: 100px;   
+}

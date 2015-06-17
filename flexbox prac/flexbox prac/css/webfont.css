@@ -1,0 +1,62 @@
+/* Foundation Icons General */
+@font-face {
+    font-family: 'FoundationIconsGeneral';
+    src: url('../fonts/foundation-icons-general.eot');
+    src: url('../fonts/foundation-icons-general.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/foundation-icons-general.woff') format('woff'),
+       url('../fonts/foundation-icons-general.ttf') format('truetype'),
+       url('../fonts/foundation-icons-general.svg#FoundationIconsGeneral') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.glyph {
+    cursor: default;
+    font-size: 42px;
+    line-height: 1;
+}
+
+.glyph.general {
+    font-family: "FoundationIconsGeneral";
+}
+
+ul.large-icons {
+	-webkit-transition: height 1.2s ease;
+	-moz-transition: height 1.2s ease;
+	-o-transition: height 1.2s ease;
+	transition: height 1.2s ease;
+	height: auto;
+}
+
+ul.large-icons li span {
+	color: #231f20;
+	display: block;
+	text-align: center;
+	-webkit-transition: color .5s;
+       -moz-transition: color .5s;
+         -o-transition: color .5s;
+            transition: color .5s;
+}
+
+ul.large-icons li:hover span {
+    color: #0caee3;
+}
+
+ul.large-icons li p {
+	margin-top: 20px;
+	text-align: center;
+}
+
+ul.large-icons li:hover p {
+	background: #0caee3;
+	color: #fff;
+	-webkit-transition: all .5s;
+       -moz-transition: all .5s;
+         -o-transition: all .5s;
+            transition: all .5s;
+}
+
+ul.large-icons li {
+	width: 15%;
+    display: inline-block;
+}

@@ -1,0 +1,111 @@
+/*------------------------------------*\
+    Global Base Styling
+\*------------------------------------*/
+html { 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body, div, pre, form, fieldset, p, blockquote, th, td {
+	font-size: 16px;
+}
+
+p {
+	font-weight: normal;
+	line-height: 1.5;
+	margin-bottom: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	text-rendering: optimizeLegibility;
+	margin: 0 0 24px 0;
+}
+
+em, i {
+	font-style: italic;
+	line-height: inherit;
+}
+
+strong, b {
+	font-weight: bold;
+	line-height: inherit;
+}
+
+code {
+	background: #ffff99;
+}   
+
+li, dt, dd {
+	line-height: 1.5;
+}
+
+dt {
+	font-weight: bold;   
+}
+
+dd {
+	text-indent: 12px;   
+}
+
+
+
+/*------------------------------------*\
+    Pragmatic Font Sizing
+\*------------------------------------*/
+/* These handle massive type, for less frequently 
+   occuring bits of text (e.g. in mastheads and banners). */
+	 
+.giga{
+    font-size: 80px;
+}
+
+.mega {
+    font-size: 64px;
+}
+
+.kilo{
+    font-size: 48px;
+}
+
+/* Define headings and their associated classes here. */
+h1, 
+h1 a, 
+.alpha {
+    font-size: 32px;
+}
+
+h2,
+h2 a,
+.beta {
+    font-size: 24px;
+}
+
+h3,
+h3 a,
+.gamma {
+    font-size: 20px;
+}
+
+h4,
+h4 a,
+.delta {
+    font-size: 18px;
+}
+
+h5,
+h5 a,
+.epsilon {
+    font-size: 16px;
+}
+
+h6,
+h6 a,
+.zeta{
+    font-size: 16px;
+}
+
+/* Smaller-than-body-copy sizes here. */
+
+small,.milli {
+    font-size: 12px;
+}

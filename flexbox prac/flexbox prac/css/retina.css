@@ -1,0 +1,35 @@
+/*------------------------------------*\
+    $Retina Images
+\*------------------------------------*/
+.element {
+    /* Serve Non-Retina image to everyone */
+    background-image: url("../img/350x150.gif");
+    /* make sure to declare width, height, and background-size */
+    width: 350px;
+    height: 150px;
+    background-size: 350px 150px;
+    margin-bottom: 3em;
+}
+
+.element:after {
+    content: "You are viewing the Non-Retina Version";
+    position: relative;
+    top: 150px;
+    font-size: 18px;
+    color: green;
+}
+ 
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+  .element {
+    /* Serve the Retina image if applicable */
+    background-image: url(../img/700x300.gif);
+  }
+  
+  .element:after {
+    content: "You are viewing the Retina Version";
+    color: red;
+    }
+}

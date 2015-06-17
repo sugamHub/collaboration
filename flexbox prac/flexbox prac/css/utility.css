@@ -1,0 +1,159 @@
+/*------------------------------------*\
+    UTILITY CLASSES
+\*------------------------------------*/
+
+/* makes long text wrap and hyphenate in a container block */
+.hyphenate {
+    white-space: normal;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+            hyphens: auto;
+}
+
+/* cuts off overflowing text and adds ellipsis */
+.ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    white-space: nowrap;
+}
+
+/* make an input span its entire container */
+.input-block-level {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/* Adds subtle rounded corners */
+.rounded-corners {
+    -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+             border-radius: 4px;
+}
+
+
+
+
+
+
+/*------------------------------------*\
+    FLOATS & CLEARS
+\*------------------------------------*/
+.float-left  { float: left; }
+.float-right { float: right;}
+.clear-left  { clear: left; }
+.clear-right { clear: right;}
+
+
+
+
+
+/*------------------------------------*\
+    CLEARFIXING
+\*------------------------------------*/
+/* clearfix fixes float clearing issues */
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+
+
+
+/*------------------------------------*\
+    HIDING & SHOWING
+\*------------------------------------*/
+/* hides content intended for Assistive Technologes */
+.assistText {
+	clip: rect(1px, 1px, 1px, 1px);
+	margin: 0;
+	position: absolute !important;
+	left: -999px;
+	width: 990px;
+	height: 15px;
+	text-indent: -999em;
+}
+
+/* visually hides text while keeping it in the DOM */
+.hide-text {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+/* hides elements from screen */
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+/* visible only below 767px */
+.visible-phone {
+    display: none !important;
+}
+
+/* visible only between 768 and 979px */
+.visible-tablet {
+    display: none !important;
+}
+
+/* hides above 980px */
+.hidden-desktop {
+    display: none !important;
+}
+
+/* visible above 980px */
+.visible-desktop {
+    display: inherit !important;
+}
+
+
+
+
+
+/*------------------------------------*\
+    IMAGE TREATMENTS
+\*------------------------------------*/
+.img-rounded {
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+}
+
+.img-polaroid {
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+       -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.img-circle {
+    -webkit-border-radius: 500px;
+       -moz-border-radius: 500px;
+            border-radius: 500px;
+}

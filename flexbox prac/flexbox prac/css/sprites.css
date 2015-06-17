@@ -1,0 +1,415 @@
+/* eliminate redundancy - add all new classes here, then add them separately in one of the groupings below for positioning purposes */
+.manyStrongLogoMain, .manyStrongLogoFooter, .raiseFunds, .orgVolunteers, .iconLgConvoBubble, .raiseFundsSmActive, .raiseFundsSmInactive, .orgVolunteersSmActive, .orgVolunteersSmInactive, .iconLgConvoBubbleSmActive, .iconLgConvoBubbleSmInactive, .twitter, .facebook, .googleplus, .plusSignAdd, .iconSmConvoBubble, .iconSmHeart, .iconLeftArrowInactive, .iconLeftArrowActive, .iconNeedMet, .iconHelpNeeded, .iconEvent, .iconExclamation, .iconAltArrow, .iconNumOne, .iconNumTwo, .iconNumThree, .iconSmCalendar, .iconSmBook, .iconSearch, .iconLgConvoBubble, .iconCreditcard, .iconCommInactiveStep, .iconCommActiveStep, .iconCommStepComplete, .iconPrefInactiveStep, .iconPrefActiveStep, .iconPrefStepComplete, .iconInviteInactiveStep, .iconInviteActiveStep, .iconInviteStepComplete, .iconStepArrow, .noProfImg, .uploadImg, .textureBkgrnd, .buildSupport, .settingUp, .nav-list li a, .nav-list li.active a, .sampleStory {
+	background-image: url(../images/sprite.png);
+	background-repeat:no-repeat;
+	text-indent: -999em;
+}
+.manyStrongLogoMain {
+	background-position: 0 0;
+	width: 227px;
+	height: 60px;
+	float: left;
+}
+.manyStrongLogoFooter {
+	background-position: 0px -110px;
+	width: 140px;
+	height: 30px;
+}
+/* [end] branding */
+
+
+/* [start] features */
+.iconLgConvoBubble {
+	background-position: -18px -2251px;
+	width: 57px;
+	height: 49px;
+	float: left;
+	margin: -14px 5px 0 0;
+}
+.iconLgConvoBubbleSmActive {
+	background-position: -100px -316px;
+	width: 35px;
+	height: 24px;
+}
+.iconLgConvoBubbleSmInactive {
+	background-position: -179px -316px;
+	width: 35px;
+	height: 24px;
+}
+.orgVolunteers {
+	background-position: -8px -396px;
+	height: 49px;
+	width: 57px;
+	float: left;
+	margin: -14px 5px 0 0;
+}
+.orgVolunteersSmActive {
+	background-position: -100px -410px;
+	width: 26px;
+	height: 24px;
+}
+.orgVolunteersSmInactive {
+	background-position: -100px -410px;
+	width: 26px;
+	height: 24px;
+}
+.raiseFunds {
+	background-position: -8px -483px;
+	height: 49px;
+	width: 57px;
+	float: left;
+	margin: -20px 5px 0 0;
+}
+.raiseFundsSmActive {
+	background-position: -100px -410px;
+	width: 26px;
+	height: 24px;
+}
+.raiseFundsSmInactive {
+	background-position: -100px -410px;
+	width: 26px;
+	height: 24px;
+}
+/* [end] features */
+
+
+/* [start] social */
+.twitter {
+	background-position: -4px -731px;
+	height: 30px;
+	width: 30px;
+}
+.facebook {
+	background-position: -2px -798px;
+	height: 30px;
+	width: 30px;
+}
+.googleplus {
+	background-position: -1px -863px;
+	height: 35px;
+	width: 37px;
+}
+/* [end] social */
+
+
+/* [start] general */
+
+.plusSignAdd {
+	background-position: 0 -1108px;
+	height: 40px;
+	width: 40px;
+}
+.iconSmConvoBubble {
+	background-position: -6px -1199px;
+	width: 30px;
+	height: 26px;
+}
+.iconSmHeart {
+	background-position: -6px -1278px;
+	width: 29px;
+	height: 26px;
+}
+.nav-list li a {
+	background-position: -11px -1346px;
+	width: 14px;
+	height: 14px;
+	display: inline;
+	line-height: 23px;
+	padding-left: 20px;
+}
+.iconLeftArrowInactive {
+	background-position: -12px -1350px;
+	width: 14px;
+	height: 14px;
+}
+.nav-list li.active a, .nav-list li a:hover {
+	background-position: -11px -1401px;
+	width: 14px;
+	height: 14px;
+	display: inline;
+	line-height: 23px;
+	padding-left: 20px;
+}
+.iconLeftArrowActive {
+	background-position: -12px -1405px;
+	width: 14px;
+	height: 13px;
+}
+.iconNeedMet {
+	background-position: -11px -1455px;
+	width: 15px;
+	height: 17px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+.iconHelpNeeded {
+	background-position: -12px -1506px;
+	width: 15px;
+	height: 16px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+.iconEvent {
+	background-position: -12px -1555px;
+	width: 15px;
+	height: 16px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+.iconExclamation {
+	background-position: -10px -1604px;
+	width: 34px;
+	height: 36px;
+}
+.iconAltArrow {
+	background-position: -18px -1699px;
+	width: 57px;
+	height: 28px;
+}
+.iconNumOne {
+	background-position: -18px -1780px;
+	width: 15px;
+	height: 29px;
+	float: left;
+}
+.iconNumTwo {
+	background-position: -18px -1861px;
+	width: 20px;
+	height: 30px;
+	float: left;
+}
+.iconNumThree {
+	background-position: -18px -1939px;
+	width: 21px;
+	height: 30px;
+	float: left;
+}
+.iconSmCalendar {
+	background-position: -18px -2021px;
+	width: 26px;
+	height: 26px;
+}
+.iconSmBook {
+	background-position: -18px -2104px;
+	width: 31px;
+	height: 24px;
+}
+.iconSearch {
+	background-position: -18px -2178px;
+	width: 20px;
+	height: 21px;
+}
+.iconCreditcard {
+	background-position: -18px -2340px;
+	width: 53px;
+	height: 33px;
+}
+/* [end] general */
+
+/* [start] Community setup  */
+
+.iconCommInactiveStep {
+	background-position: -9px -2437px;
+	width: 69px;
+	height: 59px;
+	float: left;
+	margin: -64px 0 0;
+}
+.iconCommActiveStep {
+	background-position: -104px -2437px;
+	width: 69px;
+	height: 59px;
+	float: left;
+	margin: -64px 0 0;
+}
+.iconCommStepComplete {
+	background-position: -193px -2437px;
+	width: 80px;
+	height: 67px;
+	float: left;
+	margin: -77px 0 0;
+}
+.iconPrefInactiveStep {
+	background-position: -11px -2550px;
+	width: 60px;
+	height: 71px;
+	float: left;
+	margin: -72px 0 0;
+}
+.iconPrefActiveStep {
+	background-position: -106px -2550px;
+	width: 60px;
+	height: 71px;
+	float: left;
+	margin: -72px 0 0;
+}
+.iconPrefStepComplete {
+	background-position: -198px -2550px;
+	width: 70px;
+	height: 77px;
+	float: left;
+	margin: -80px 0 0;
+}
+.iconInviteInactiveStep {
+	background-position: -8px -2669px;
+	width: 84px;
+	height: 48px;
+	float: left;
+	margin: -57px 0 0 -10px;
+}
+.iconInviteActiveStep {
+	background-position: -106px -2673px;
+	width: 80px;
+	height: 40px;
+	float: left;
+	margin: -57px 0 0 -10px;
+}
+.iconInviteStepComplete {
+	background-position: -203px -2673px;
+	width: 86px;
+	height: 57px;
+	float: left;
+	margin: -57px 0 0 -10px;
+}
+.iconStepArrow {
+	background-position: -18px -2757px;
+	width: 42px;
+	height: 28px;
+	float: left;
+	margin: 44px 33px 0 -18px;
+}
+/* [end] Community setup  */
+
+/* [start] Large images */
+.noProfImg {
+	background-position: -18px -2837px;
+	width: 103px;
+	height: 103px;
+}
+.uploadImg {
+	background-position: -18px -3039px;
+	width: 153px;
+	height: 157px;
+}
+.sampleStory {
+	background-position: -18px -4261px;
+	width: 230px;
+	height: 230px;
+}
+/* [end] large images */
+
+/* Icon Font as Sprite */
+.iconCalendar, .iconUser, .iconStory, .iconGift, .iconUpdate-small, .iconComment-small, .iconHelp-small, .iconEvent-small, .iconMail-LargeWhite, .iconX-smallBlue, .iconCheck-LargeGreen, .iconX-LargeRed, .iconX-15 {
+	background: url('../images/icon_sprite.png') no-repeat;
+}
+.iconCalendar {
+	background-position: -163px -32px;
+	width: 30px;
+	height: 30px;
+}
+.iconCalendar:hover {
+	background-position: -163px -62px;
+	width: 30px;
+	height: 30px;
+}
+.iconUser {
+	background-position: -212px -32px;
+	width: 30px;
+	height: 30px;
+}
+.iconUser:hover {
+	background-position: -212px -62px;
+	width: 30px;
+	height: 30px;
+}
+.iconStory {
+	background-position: -261px -32px;
+	width: 30px;
+	height: 30px;
+}
+.iconStory:hover {
+	background-position: -261px -62px;
+	width: 30px;
+	height: 30px;
+}
+.iconGift {
+	background-position: -311px -32px;
+	width: 30px;
+	height: 30px;
+}
+.iconGift:hover {
+	background-position: -311px -62px;
+	width: 30px;
+	height: 30px;
+}
+.iconUpdate-small {
+	background-position: -41px -107px;
+	width: 14px;
+	height: 10px;
+}
+.iconComment-small {
+	background-position: -143px -106px;
+	width: 14px;
+	height: 13px;
+}
+.iconHelp-small {
+	background-position: -194px -106px;
+	width: 14px;
+	height: 13px;
+}
+.iconEvent-small {
+	background-position: -92px -105px;
+	width: 13px;
+	height: 14px;
+}
+.iconX-smallBlue {
+	background-position: -96px -165px;
+	width: 13px;
+	height: 14px;
+	display: block;
+	float: right;
+}
+.iconX-smallBlue:hover {
+	background-position: -126px -165px;
+}
+.iconCheck-LargeGreen {
+	background-position: -16px -122px;
+	width: 30px;
+	height: 24px;
+}
+.iconCheck-LargeGreen:hover {
+	background-position: -56px -122px;
+}
+.iconX-LargeRed {
+	background-position: -16px -154px;
+	width: 25px;
+	height: 26px;
+}
+.iconX-LargeRed:hover {
+	background-position: -56px -154px;
+}
+.iconX-15 {
+	background-position: -96px -134px;
+	width: 15px;
+	height: 15px;
+	display: block;
+}
+.iconX-15:hover {
+	background-position: -126px -134px;
+}
+.iconMail-LargeWhite {
+	background-position: -16px -193px;
+	width: 60px;
+	height: 38px;
+	display: block;
+	margin: 0 auto;
+}
+button.forSearch.iconSearch {
+	background: url('../images/icon_sprite.png') no-repeat;
+	background-position: -11px -239px;
+	width: 27px;
+	height: 27px;
+}
+button.forSearch.iconSearch:hover {
+	background-position: -11px -238px;
+}
